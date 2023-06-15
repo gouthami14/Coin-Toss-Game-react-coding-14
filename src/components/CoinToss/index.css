@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.toss-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  background-size: cover;
+}
+.toss-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 50%;
+  border-radius: 20px;
+}
+.toss-heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+.toss-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+.toss-image {
+  height: 300px;
+  width: 300px;
+}
+.toss-button {
+  background-color: #f9d423;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  border-width: 0px;
+  border-radius: 15px;
+  width: 100px;
+  height: 40px;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.total-count {
+  display: flex;
+  flex-direction: row;
+}
